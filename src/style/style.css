@@ -1,0 +1,32 @@
+*{
+   
+   margin: 0;
+   padding: 0%;
+   box-sizing: border-box;
+}
+body{
+    font-family: "montserrat",sans-serif;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("https://wallpapercave.com/wp/hPLjH8C.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.search {
+    background-image:linear-gradient(to bottom , rgba(0,0,0,0.2),rgba(0,0,0,0.75)) ;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+   opacity: 50;
+    padding: 40px;
+    text-align: center;
+    transform: translateY(50%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0 0 0 / 0.4);
+    height:300px;
+}
